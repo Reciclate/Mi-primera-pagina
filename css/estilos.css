@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    margin-top: 0px;
+    background: white;
+}
+header{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 30px;
+    text-align: centro;
+    color: green;
+    background-color: white;
+}
+header img{
+    float: left;
+    width: 120px;
+    height: 150px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+header h1{
+    font-size: 50px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(76, 163, 76);
+    text-align: right;
+    color: white;
+    padding: 10px 5px;
+
+}
+main{
+    content: "";
+    display: table;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+section{
+    float: left;
+    width: 30%;
+    height: 15em;
+    background-color: rgb(76, 163, 76);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 25%;
+    height: 15em;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+ article{
+    width: 100%;
+    height: 4.5em;
+    background-color: rgb(156, 223, 173);
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+footer{
+    display: inline-block;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(76, 163, 76);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+ .menu .boton {
+    border: 1px white;
+    padding: 10px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+}
+p {
+    color:black;
+}
+.menu2 .boton {
+    border: 1px rgb(141, 214, 141);
+    padding: 9px;
+    background-color: #a7ffd3;
+    color: #11aa56;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    text-align: center;
+    
+   
+}
+
+
+
+/**{
+    margin: 0;
+    color: orange;
+}
+
+.destacado{
+    color: blue;
+}
+
+#destacado{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}  
+p, li{
+    color: red;
+    width: 500px;
+    border: 0px solid black;
+}
+h1{
+    color: green;
+}
+*/

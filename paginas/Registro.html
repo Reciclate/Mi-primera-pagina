@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<nav class="menu"><br>
+    <a class="boton" href="../estilos.html" target="_blank">inicio</a>
+    <a class="boton" href="../paginas/Proposito.html" target="_blank">Proposito</a>
+    <a class="boton" href="../paginas/Registro.html" target="_blank">Registro</a>
+    <a class="boton" href="../paginas/Cuestionario.html" target="_blank">Entrevista</a>
+    <a class="boton" href="../paginas/Tu trabajo.html" target="_blank">Tu trabajo</a>
+    <a class="boton" href="../paginas/Direccion.html" target="_blank">Direccion</a>
+</nav>
+<style>
+
+    .form-contact {
+        background-color: #fff;
+        width: 300px;
+        height: 350px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+    }
+    .h2 {
+        font-size: 100px;
+        display: block;
+        text-align: center;
+        padding: 2.5rem;
+        width: 100px;
+    }
+    .contact {
+        padding: .8rem;
+        overflow: hidden;
+        color: gray;
+    }
+    .contact label, .contact input, .contact textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+</style>
+
+<body>
+    <section class="form-contact">
+        <h2>Registrate</h2>
+    <form action="https://formsubmit.co/acallof@gmail.com" method="POST" class="contact">
+    <label for="nombres">Nombre</label>
+    <input type="text" name="nombres" id="nombres">
+
+    <label for="correo">Correo</label>
+    <input type="text" name="correo" id="correo">
+
+    <label for="asunto">Asunto</label>
+    <input type="text" name="asunto" id="asunto">
+
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje"></textarea>
+
+    <input type="submit" value="Enviar">
+
+    <footer>
+        <p>#Por un futuro sin residuos</p>
+
+    </form>
+    </section>
+</body>
+  
+
+</html>
